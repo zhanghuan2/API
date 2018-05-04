@@ -1,12 +1,12 @@
-##pdf to html （phantom）
+## pdf to html （phantom）
 
 将html文件转化为pdf，生成本地文件
 
-##构建方式
+### 构建方式
 ```
   npm install phantom --save-dev
 ```
-##API
+### API
 ```javascript
   const instance = await phantom.create();
   const page = await instance.createPage();
@@ -16,3 +16,5 @@
   //this.ctx.body = content;
   await instance.exit();  //exit
 ```
+
+=========================================================================================
