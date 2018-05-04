@@ -17,4 +17,27 @@
   await instance.exit();  //exit
 ```
 
-=========================================================================================
+=====================================================================================
+
+## html to pdf （pdftohtmljs  +  pdf2htmlEX）
+
+将pdf文件转化为html，生成本地文件
+
+### 构建方式
+```
+  npm install pdftohtmljs --save-dev
+  blew install pdf2htmlEX   (macOS)
+```
+### API
+```javascript
+  const converter = new pdftohtml(pdf-path, html-path);
+  converter.convert('ipad').then(function() {
+    console.log("Success");
+  }).catch(function(err) {
+    console.error("Conversion error: " + err);
+  });
+  converter.progress(function(ret) {
+    console.log((ret.current*100.0)/ret.total + " %");
+  });
+```
+
