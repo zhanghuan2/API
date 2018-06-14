@@ -1,4 +1,4 @@
-## pdf to html （phantom）
+## html to pdf/png （phantom）
 
 将html文件转化为pdf，生成本地文件
 
@@ -19,7 +19,7 @@
 
 =====================================================================================
 
-## html to pdf （pdftohtmljs  +  pdf2htmlEX）
+## pdf to html （pdftohtmljs  +  pdf2htmlEX）
 
 将pdf文件转化为html，生成本地文件
 
